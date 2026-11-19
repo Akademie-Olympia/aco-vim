@@ -1,22 +1,20 @@
 # Vim configuration
 
-Standalone-Vim-Konfiguration ohne externe Plugins, mit Catppuccin-Farben,
-modularer Statusline und vertrauten Editor-Keybindings.
+Standalone Vim configuration without external plugins, with Catppuccin colours, a modular status line and familiar editor key bindings.
 
-**[Vollständige Dokumentation](https://aco-vim.readthedocs.io/en/latest/)** ·
-[Arch-Paket](https://aco-vim.readthedocs.io/en/latest/packages/) ·
-[Keybindings](https://aco-vim.readthedocs.io/en/latest/keybindings/) ·
-[Dotfiles-Handbuch](https://aco-arch-dotfiles.readthedocs.io/en/latest/)
+**[Full documentation](https://aco-vim.readthedocs.io/en/latest/)** ·
+[Arch package](https://aco-vim.readthedocs.io/en/latest/packages/) ·
+[Key bindings](https://aco-vim.readthedocs.io/en/latest/keybindings/) ·
+[Design & dependencies](https://aco-vim.readthedocs.io/en/latest/design/)
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Akademie-Olympia/aco-arch-dotfiles/main/install.sh | bash -s -- vim
 ```
 
-Paket: `aco-arch-dotfiles-vim`. Einstieg: `~/.config/vim/vimrc`, verlinkt als `~/.vimrc`.
-Standalone-Installation und Bedienung sind im Handbuch beschrieben.
-Hier entwickeln und auf `main` pushen; nach erfolgreichem Registry-Build mit
-`sudo pacman -Syu` aktualisieren. Lokale Builds: [PACKAGING.md](PACKAGING.md).
+Package: `aco-arch-dotfiles-vim`. Entry point: `~/.config/vim/vimrc`, linked as `~/.vimrc`.
+Standalone installation and usage are described in the manual.
+Develop independently in this repository and push to `main`; after a successful registry build update with `sudo pacman -Syu`. Local builds: [PACKAGING.md](PACKAGING.md).
 
 [![Package safety](https://github.com/Akademie-Olympia/aco-vim/actions/workflows/package.yml/badge.svg)](https://github.com/Akademie-Olympia/aco-vim/actions/workflows/package.yml)
 
-[MIT-Lizenz](LICENSE).
+[MIT licence](LICENSE).
