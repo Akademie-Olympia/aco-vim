@@ -69,5 +69,5 @@ Modern plugin managers (`vim-plug`, `packer`, `lazy.nvim`) are powerful, but add
 
 ### When should I use `vim-config` vs `nvim-config`?
 
-- **Use [`nvim-config`](https://nvim-config.readthedocs.io/en/latest/)** for primary software engineering, full IDE features, LSP diagnostics, Treesitter AST highlighting, fuzzy finding with Snacks/Telescope, and Git blame overlays.
+- **Use [`nvim-config`](https://aco-nvim.readthedocs.io/en/latest/)** for primary software engineering, full IDE features, LSP diagnostics, Treesitter AST highlighting, fuzzy finding with Snacks/Telescope, and Git blame overlays.
 - **Use `vim-config`** for remote SSH sessions, quick config file editing (`/etc/...`), lightweight systems, or as a fast fallback editor with identical navigation shortcuts.

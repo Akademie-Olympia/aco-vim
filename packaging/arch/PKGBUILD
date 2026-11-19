@@ -1,13 +1,15 @@
 # Package-local recipe. Stage checksummed sources with packaging/arch/build.sh.
-pkgname=arch-dotfiles-vim
+pkgname=aco-arch-dotfiles-vim
 pkgver=0.3.0
 pkgrel=1
 pkgdesc='Standalone Vim configuration'
 arch=('any')
-url='https://github.com/Akademie-Olympia/aco-dotfiles'
+url='https://github.com/Akademie-Olympia/aco-arch-dotfiles'
 license=('LicenseRef-arch-dotfiles-bundle')
-depends=('arch-dotfiles-core>=0.3.0' 'vim>=8.2')
+depends=('aco-arch-dotfiles-core>=0.3.0' 'vim>=8.2')
 optdepends=()
+replaces=('arch-dotfiles-vim')
+conflicts=('arch-dotfiles-vim')
 options=('!strip')
 source=('payload.tar.gz')
 sha256sums=('__SOURCE_SHA256__')

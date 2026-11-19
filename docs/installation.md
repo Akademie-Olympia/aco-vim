@@ -58,9 +58,9 @@ The editor starts instantly with no warnings or external downloads.
 
 ---
 
-## Integration within the Arch Dotfiles Repository
+## Integration within the ACO Arch Dotfiles Repository
 
-Vim is distributed as the independent `arch-dotfiles-vim` package, not a parent
+Vim is distributed as the independent `aco-arch-dotfiles-vim` package, not a parent
 subtree. See {doc}`packages` for the one-command installer, `pacman -Syu`, safe
 configuration updates and separate development checkouts.
 
@@ -87,7 +87,7 @@ State and session files are placed according to the XDG Base Directory specifica
 
 ## Uninstallation
 
-For package-managed installations, run `arch-dotfiles-config deactivate vim`
+For package-managed installations, run `aco-arch-dotfiles-config deactivate vim`
 before removing the package; see {doc}`packages`. For standalone installations,
 review the `.vimrc` link, move the configuration aside and restore your backup.
 Persistent undo/history is personal data and should not be deleted automatically.

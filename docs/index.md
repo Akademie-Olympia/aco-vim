@@ -1,7 +1,7 @@
 # vim-config
 
-[![Docs](https://readthedocs.org/projects/vim-config/badge/?version=latest)](https://vim-config.readthedocs.io/en/latest/)
-[![Dotfiles Hub](https://img.shields.io/badge/ecosystem-arch--dotfiles-1793D1?logo=arch-linux&logoColor=white)](https://arch-dotfiles.readthedocs.io/en/latest/)
+[![Docs](https://readthedocs.org/projects/aco-vim/badge/?version=latest)](https://aco-vim.readthedocs.io/en/latest/)
+[![Dotfiles Hub](https://img.shields.io/badge/ecosystem-arch--dotfiles-1793D1?logo=arch-linux&logoColor=white)](https://aco-arch-dotfiles.readthedocs.io/en/latest/)
 [![Theme: Catppuccin Mocha](https://img.shields.io/badge/theme-Catppuccin%20Mocha-cba6f7)](https://github.com/catppuccin/catppuccin)
 [![Vim 8.2+ / 9.0+](https://img.shields.io/badge/Vim-8.2%2B%20%7C%209.0%2B-019733?logo=vim&logoColor=white)](https://www.vim.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Akademie-Olympia/aco-vim/blob/main/LICENSE)
@@ -9,7 +9,7 @@
 A lightweight, zero-plugin **Vim** configuration crafted in the official **Catppuccin Mocha** palette. Built with native Vimscript for sub-10ms startup times, pure XDG file hygiene, dynamic statusline telemetry, and keybindings synchronized with Neovim.
 
 :::{note}
-**Part of the Arch Dotfiles Ecosystem**: Built for **Arch Linux** as part of [`arch-dotfiles`](https://arch-dotfiles.readthedocs.io/en/latest/), this Vim configuration is engineered as a robust, dependency-free editor setup that runs out-of-the-box on any Arch Linux system, minimal SSH servers, containers, other Linux distributions, or macOS without package managers or plugin compilers.
+**Part of the ACO Arch Dotfiles Ecosystem**: Built for **Arch Linux** as part of [`aco-arch-dotfiles`](https://aco-arch-dotfiles.readthedocs.io/en/latest/), this Vim configuration is engineered as a robust, dependency-free editor setup that runs out-of-the-box on any Arch Linux system, minimal SSH servers, containers, other Linux distributions, or macOS without package managers or plugin compilers.
 :::
 
 ---
@@ -43,11 +43,11 @@ faq
 :caption: Related documentation
 :hidden:
 
-Arch Dotfiles (main hub) <https://arch-dotfiles.readthedocs.io/en/latest/>
-Neovim (nvim-config) <https://nvim-config.readthedocs.io/en/latest/>
-tmux (tmux-config) <https://tmux-config.readthedocs.io/en/latest/>
-Ghostty (ghostty-config) <https://ghostty-config.readthedocs.io/en/latest/>
-Kitty (kitty-config) <https://kitty-config.readthedocs.io/en/latest/>
+ACO Arch Dotfiles (main hub) <https://aco-arch-dotfiles.readthedocs.io/en/latest/>
+Neovim (nvim-config) <https://aco-nvim.readthedocs.io/en/latest/>
+tmux (tmux-config) <https://aco-tmux.readthedocs.io/en/latest/>
+Ghostty (ghostty-config) <https://aco-ghostty.readthedocs.io/en/latest/>
+Kitty (kitty-config) <https://aco-kitty.readthedocs.io/en/latest/>
 ```
 
 ---
@@ -74,8 +74,8 @@ This repository is independent, not embedded as a parent subtree. See
 
 ## Connected Dotfiles Ecosystem
 
-- **[Arch Dotfiles Hub (`arch-dotfiles`)](https://arch-dotfiles.readthedocs.io/en/latest/)**: Central repository uniting the Arch Linux + Hyprland desktop, window manager, and shell environments.
-- **[nvim-config](https://nvim-config.readthedocs.io/en/latest/)**: Reproducible, offline-capable Neovim IDE powered by native Lua, LSP, and Tree-sitter.
-- **[tmux-config](https://tmux-config.readthedocs.io/en/latest/)**: Terminal multiplexer sharing identical navigation semantics.
-- **[ghostty-config](https://ghostty-config.readthedocs.io/en/latest/)**: High-performance GPU terminal with matching Catppuccin theme.
-- **[kitty-config](https://kitty-config.readthedocs.io/en/latest/)**: GPU terminal with Powerline tabs and transparency.
+- **[ACO Arch Dotfiles Hub (`aco-arch-dotfiles`)](https://aco-arch-dotfiles.readthedocs.io/en/latest/)**: Central repository uniting the Arch Linux + Hyprland desktop, window manager, and shell environments.
+- **[nvim-config](https://aco-nvim.readthedocs.io/en/latest/)**: Reproducible, offline-capable Neovim IDE powered by native Lua, LSP, and Tree-sitter.
+- **[tmux-config](https://aco-tmux.readthedocs.io/en/latest/)**: Terminal multiplexer sharing identical navigation semantics.
+- **[ghostty-config](https://aco-ghostty.readthedocs.io/en/latest/)**: High-performance GPU terminal with matching Catppuccin theme.
+- **[kitty-config](https://aco-kitty.readthedocs.io/en/latest/)**: GPU terminal with Powerline tabs and transparency.
