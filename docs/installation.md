@@ -29,7 +29,7 @@ For managed Arch installation, safe updates and backup restoration, see
 Clone `vim-config` into `~/.config/vim`:
 
 ```bash
-git clone https://github.com/MichaelWeissDEV/vim-config.git ~/.config/vim
+git clone https://github.com/Akademie-Olympia/aco-vim.git ~/.config/vim
 ```
 
 ### Step 2: Create the Root Symlink

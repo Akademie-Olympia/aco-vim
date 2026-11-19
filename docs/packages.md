@@ -1,7 +1,7 @@
 # Arch package and automatic updates
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/MichaelWeissDEV/dotfiles/main/install.sh | bash -s -- vim
+curl -fsSL https://raw.githubusercontent.com/Akademie-Olympia/aco-dotfiles/main/install.sh | bash -s -- vim
 ```
 
 This installs `arch-dotfiles-vim`, Vim and the activation tool. Existing

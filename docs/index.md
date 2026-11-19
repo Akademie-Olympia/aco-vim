@@ -4,7 +4,7 @@
 [![Dotfiles Hub](https://img.shields.io/badge/ecosystem-arch--dotfiles-1793D1?logo=arch-linux&logoColor=white)](https://arch-dotfiles.readthedocs.io/en/latest/)
 [![Theme: Catppuccin Mocha](https://img.shields.io/badge/theme-Catppuccin%20Mocha-cba6f7)](https://github.com/catppuccin/catppuccin)
 [![Vim 8.2+ / 9.0+](https://img.shields.io/badge/Vim-8.2%2B%20%7C%209.0%2B-019733?logo=vim&logoColor=white)](https://www.vim.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MichaelWeissDEV/vim-config/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Akademie-Olympia/aco-vim/blob/main/LICENSE)
 
 A lightweight, zero-plugin **Vim** configuration crafted in the official **Catppuccin Mocha** palette. Built with native Vimscript for sub-10ms startup times, pure XDG file hygiene, dynamic statusline telemetry, and keybindings synchronized with Neovim.
 
@@ -58,7 +58,7 @@ Kitty (kitty-config) <https://kitty-config.readthedocs.io/en/latest/>
 
 ```bash
 # Clone repository to ~/.config/vim
-git clone https://github.com/MichaelWeissDEV/vim-config.git ~/.config/vim
+git clone https://github.com/Akademie-Olympia/aco-vim.git ~/.config/vim
 
 # Symlink to ~/.vimrc and ensure undo directory exists
 ln -sfn ~/.config/vim/vimrc ~/.vimrc

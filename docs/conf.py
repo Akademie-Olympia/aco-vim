@@ -42,7 +42,7 @@ suppress_warnings = ["myst.header", "myst.xref_missing"]
 html_theme = "furo"
 html_title = "vim-config docs"
 html_theme_options = {
-    "source_repository": "https://github.com/MichaelWeissDEV/vim-config",
+    "source_repository": "https://github.com/Akademie-Olympia/aco-vim",
     "source_branch": "main",
     "source_directory": "docs/",
     "light_css_variables": {
