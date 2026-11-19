@@ -31,6 +31,7 @@ A lightweight, zero-plugin **Vim** configuration crafted in the official **Catpp
 :maxdepth: 2
 :caption: User Guide
 
+design
 installation
 packages
 configuration
