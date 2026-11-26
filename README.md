@@ -1,6 +1,6 @@
 # Vim configuration
 
-Standalone Vim configuration without external plugins, with Catppuccin colours, a modular status line and familiar editor key bindings.
+Standalone Vim configuration without external plugins, with colours from the ACO desktop theme, a modular status line and familiar editor key bindings.
 
 **[Full documentation](https://aco-vim.readthedocs.io/en/latest/)** ·
 [Arch package](https://aco-vim.readthedocs.io/en/latest/packages/) ·
