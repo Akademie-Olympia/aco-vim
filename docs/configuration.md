@@ -109,12 +109,15 @@ let &viminfofile = s:vim_state_dir . '/viminfo'
 
 ---
 
-## Native Catppuccin Mocha Color Palette
+## Colours
 
-Without requiring any third-party colorscheme plugins, `vim-config` applies the full Catppuccin Mocha palette through a custom initialization function:
+Without any colorscheme plugin, the colours come from the ACO desktop theme: aco-theme renders
+`aco-theme/colors.vim.tpl` to `~/.config/aco/theme/vim/colors.vim` (background, syntax groups, popup menu and the
+status line mode colours, light or dark), which `vimrc` sources after the built-in `habamax` scheme. Without aco-theme
+`habamax` stays. New Vim instances pick up theme changes; in a running one use
+`:source ~/.config/aco/theme/vim/colors.vim`.
 
-| Palette Role | Hex Code | Description |
-| :--- | :--- | :--- |
+--- | :--- | :--- |
 | **Base** | `#1e1e2e` | Main window background |
 | **Mantle** | `#181825` | Statusline and popup background |
 | **Text** | `#cdd6f4` | Primary foreground text |

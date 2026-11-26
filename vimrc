@@ -1,5 +1,5 @@
 " ============================================================================
-" ~/.config/vim/vimrc - Minimalistische Vim-Konfiguration (Catppuccin Mocha)
+" ~/.config/vim/vimrc - Minimalistische Vim-Konfiguration
 " Synchronisiert mit den Optionen & Keymaps aus ~/.config/nvim
 " ============================================================================
 
@@ -88,77 +88,16 @@ endif
 let &viminfofile = s:vim_state_dir . '/viminfo'
 
 " ============================================================================
-" CATPPUCCIN MOCHA FARBSCHEMA (Nativer Support ohne externe Plugins)
+" FARBEN: folgen dem Desktop-Theme (aco-theme, Hell/Dunkel + Akzent).
+" Ohne aco-theme bleibt das mitgelieferte habamax. Neue Vim-Fenster laden
+" Änderungen; laufende mit :source ~/.config/aco/theme/vim/colors.vim
 " ============================================================================
 set background=dark
 silent! colorscheme habamax
-
-function! s:ApplyCatppuccinMocha() abort
-    " Basis-Hintergrund & Text (Base #1e1e2e, Text #cdd6f4, Mantle #181825)
-    highlight Normal       guifg=#cdd6f4 guibg=#1e1e2e ctermbg=NONE
-    highlight NonText      guifg=#45475a guibg=#1e1e2e ctermbg=NONE
-    highlight SpecialKey   guifg=#45475a guibg=NONE
-    highlight EndOfBuffer  guifg=#1e1e2e guibg=#1e1e2e
-    highlight CursorLine   guibg=#2a2b3c cterm=NONE
-    highlight ColorColumn  guibg=#313244
-
-    " Zeilennummern & Sign-Spalte (Overlay0 #6c7086, Aktive Zeile Blue #89b4fa)
-    highlight LineNr       guifg=#6c7086 guibg=#1e1e2e
-    highlight CursorLineNr guifg=#89b4fa guibg=#2a2b3c gui=bold cterm=bold
-    highlight SignColumn   guifg=#6c7086 guibg=#1e1e2e
-
-    " Auswahl, Suche & Klammern (Surface1 #45475a, Peach #fab387, Yellow #f9e2af)
-    highlight Visual       guibg=#45475a gui=NONE
-    highlight Search       guifg=#11111b guibg=#f9e2af gui=NONE
-    highlight IncSearch    guifg=#11111b guibg=#fab387 gui=bold
-    highlight CurSearch    guifg=#11111b guibg=#fab387 gui=bold
-    highlight MatchParen   guifg=#fab387 guibg=#45475a gui=bold
-
-    " Fensterrahmen & Popup-Menü (Surface0 #313244, Blue #89b4fa)
-    highlight VertSplit    guifg=#313244 guibg=#1e1e2e gui=NONE
-    highlight WinSeparator guifg=#313244 guibg=#1e1e2e gui=NONE
-    highlight Pmenu        guifg=#cdd6f4 guibg=#181825
-    highlight PmenuSel     guifg=#11111b guibg=#89b4fa gui=bold
-    highlight PmenuSbar    guibg=#313244
-    highlight PmenuThumb   guibg=#6c7086
-
-    " Syntax-Farben (Catppuccin Mocha Pastellpalette)
-    highlight Comment      guifg=#6c7086 gui=italic
-    highlight Constant     guifg=#fab387
-    highlight String       guifg=#a6e3a1
-    highlight Character    guifg=#94e2d5
-    highlight Number       guifg=#fab387
-    highlight Boolean      guifg=#fab387
-    highlight Identifier   guifg=#cdd6f4
-    highlight Function     guifg=#89b4fa gui=bold
-    highlight Statement    guifg=#cba6f7 gui=NONE
-    highlight Conditional  guifg=#cba6f7 gui=NONE
-    highlight Repeat       guifg=#cba6f7 gui=NONE
-    highlight Keyword      guifg=#cba6f7 gui=NONE
-    highlight Operator     guifg=#89dceb
-    highlight PreProc      guifg=#f5c2e7
-    highlight Type         guifg=#f9e2af gui=NONE
-    highlight Special      guifg=#f5c2e7
-    highlight Error        guifg=#f38ba8 guibg=NONE gui=bold
-    highlight Todo         guifg=#11111b guibg=#f9e2af gui=bold
-    highlight Directory    guifg=#89b4fa gui=bold
-
-    " Statuszeilen-Farbgruppen (für Modi & Segmente)
-    highlight StatusLine          guifg=#cdd6f4 guibg=#181825 gui=NONE
-    highlight StatusLineNC        guifg=#6c7086 guibg=#181825 gui=NONE
-    highlight StlModeNormal       guifg=#11111b guibg=#89b4fa gui=bold
-    highlight StlModeInsert       guifg=#11111b guibg=#a6e3a1 gui=bold
-    highlight StlModeVisual       guifg=#11111b guibg=#cba6f7 gui=bold
-    highlight StlModeReplace      guifg=#11111b guibg=#f38ba8 gui=bold
-    highlight StlModeCommand      guifg=#11111b guibg=#fab387 gui=bold
-    highlight StlSectionMid       guifg=#cdd6f4 guibg=#181825 gui=NONE
-    highlight StlSectionFile      guifg=#cdd6f4 guibg=#313244 gui=NONE
-    highlight StlSectionModified  guifg=#f9e2af guibg=#313244 gui=bold
-    highlight StlSectionNumMode   guifg=#94e2d5 guibg=#313244 gui=bold
-    highlight StlSectionPos       guifg=#11111b guibg=#89b4fa gui=bold
-endfunction
-
-call s:ApplyCatppuccinMocha()
+let s:aco_colors = expand('~/.config/aco/theme/vim/colors.vim')
+if filereadable(s:aco_colors)
+    execute 'source ' . fnameescape(s:aco_colors)
+endif
 
 " ============================================================================
 " STATUSZEILE UNTEN (Mit Live-Modus, Datei-Infos & REL/ABS-Indikator)

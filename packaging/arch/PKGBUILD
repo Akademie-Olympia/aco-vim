@@ -7,7 +7,7 @@ arch=('any')
 url='https://github.com/Akademie-Olympia/aco-arch-dotfiles'
 license=('LicenseRef-arch-dotfiles-bundle')
 depends=('aco-arch-dotfiles-core>=0.3.0' 'vim>=8.2')
-optdepends=()
+optdepends=('aco-arch-dotfiles-aco-theme: colours follow the desktop theme')
 replaces=('arch-dotfiles-vim')
 conflicts=('arch-dotfiles-vim')
 options=('!strip')

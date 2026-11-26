@@ -51,14 +51,14 @@ As you transition between modes, `StlModeLabel()` and `StlModeColor()` re-evalua
 
 | Mode | Label | Highlight Group | Background Color |
 | :--- | :--- | :--- | :--- |
-| **Normal** | `NORMAL` | `StlModeNormal` | Catppuccin Blue (`#89b4fa`) |
-| **Insert** | `INSERT` | `StlModeInsert` | Catppuccin Green (`#a6e3a1`) |
-| **Visual (Char)** | `VISUAL` | `StlModeVisual` | Catppuccin Mauve (`#cba6f7`) |
-| **Visual (Line)** | `V-LINE` | `StlModeVisual` | Catppuccin Mauve (`#cba6f7`) |
-| **Visual (Block)** | `V-BLOCK` | `StlModeVisual` | Catppuccin Mauve (`#cba6f7`) |
-| **Replace** | `REPLACE` | `StlModeReplace` | Catppuccin Red (`#f38ba8`) |
-| **Command** | `COMMAND` | `StlModeCommand` | Catppuccin Peach (`#fab387`) |
-| **Terminal** | `TERMINAL` | `StlModeNormal` | Catppuccin Blue (`#89b4fa`) |
+| **Normal** | `NORMAL` | `StlModeNormal` | theme accent |
+| **Insert** | `INSERT` | `StlModeInsert` | theme green |
+| **Visual (Char)** | `VISUAL` | `StlModeVisual` | theme purple |
+| **Visual (Line)** | `V-LINE` | `StlModeVisual` | theme purple |
+| **Visual (Block)** | `V-BLOCK` | `StlModeVisual` | theme purple |
+| **Replace** | `REPLACE` | `StlModeReplace` | theme red |
+| **Command** | `COMMAND` | `StlModeCommand` | theme orange |
+| **Terminal** | `TERMINAL` | `StlModeNormal` | theme accent |
 
 ---
 

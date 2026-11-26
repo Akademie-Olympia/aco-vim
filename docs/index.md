@@ -2,11 +2,11 @@
 
 [![Docs](https://readthedocs.org/projects/aco-vim/badge/?version=latest)](https://aco-vim.readthedocs.io/en/latest/)
 [![Dotfiles Hub](https://img.shields.io/badge/ecosystem-arch--dotfiles-1793D1?logo=arch-linux&logoColor=white)](https://aco-arch-dotfiles.readthedocs.io/en/latest/)
-[![Theme: Catppuccin Mocha](https://img.shields.io/badge/theme-Catppuccin%20Mocha-cba6f7)](https://github.com/catppuccin/catppuccin)
+[![Theme: aco-theme](https://img.shields.io/badge/theme-aco--theme-5b9cf6)](https://github.com/Akademie-Olympia/aco-theme)
 [![Vim 8.2+ / 9.0+](https://img.shields.io/badge/Vim-8.2%2B%20%7C%209.0%2B-019733?logo=vim&logoColor=white)](https://www.vim.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Akademie-Olympia/aco-vim/blob/main/LICENSE)
 
-A lightweight, zero-plugin **Vim** configuration crafted in the official **Catppuccin Mocha** palette. Built with native Vimscript for sub-10ms startup times, pure XDG file hygiene, dynamic statusline telemetry, and keybindings synchronized with Neovim.
+A lightweight, zero-plugin **Vim** configuration coloured by the shared **aco-theme** (light/dark, accent). Built with native Vimscript for sub-10ms startup times, pure XDG file hygiene, dynamic statusline telemetry, and keybindings synchronized with Neovim.
 
 :::{note}
 **Part of the ACO Arch Dotfiles Ecosystem**: Built for **Arch Linux** as part of [`aco-arch-dotfiles`](https://aco-arch-dotfiles.readthedocs.io/en/latest/), this Vim configuration is engineered as a robust, dependency-free editor setup that runs out-of-the-box on any Arch Linux system, minimal SSH servers, containers, other Linux distributions, or macOS without package managers or plugin compilers.
@@ -17,7 +17,7 @@ A lightweight, zero-plugin **Vim** configuration crafted in the official **Catpp
 ## Key Highlights
 
 - ⚡ **Zero External Plugins**: 100% self-contained native Vimscript. No `vim-plug`, no `pathogen`, and no network dependencies needed during editor startup.
-- 🎨 **Native Catppuccin Mocha**: Complete 16-color pastel theme defined natively in GUI colors (`#1e1e2e` base, `#89b4fa` pastel blue, `#cba6f7` mauve, `#a6e3a1` green).
+- 🎨 **aco-theme colours**: a generated native colour file (no plugin) for syntax, popup menu and status line, light or dark.
 - 📊 **Dynamic Statusline**: Custom modular statusline displaying live mode colors (`NORMAL`, `INSERT`, `VISUAL`, `REPLACE`), line number state (`NUM:REL`, `NUM:ABS`, `NUM:OFF`), file encoding, and cursor telemetry.
 - 🔢 **Hybrid Line Number Toggling**: Instant switching between relative (hybrid) and absolute line numbers via `<Space>un`, `<Space>rn`, `<Space>n`, or `<F3>`. Complete toggle with `<Space>uN`.
 - 🧹 **XDG Directory Compliance**: No `.swp` clutter in project trees. Persistent undo history is neatly stored in `~/.local/state/vim/undo/` and session data in `~/.local/state/vim/viminfo`.
@@ -78,5 +78,5 @@ This repository is independent, not embedded as a parent subtree. See
 - **[ACO Arch Dotfiles Hub (`aco-arch-dotfiles`)](https://aco-arch-dotfiles.readthedocs.io/en/latest/)**: Central repository uniting the Arch Linux + Hyprland desktop, window manager, and shell environments.
 - **[nvim-config](https://aco-nvim.readthedocs.io/en/latest/)**: Reproducible, offline-capable Neovim IDE powered by native Lua, LSP, and Tree-sitter.
 - **[tmux-config](https://aco-tmux.readthedocs.io/en/latest/)**: Terminal multiplexer sharing identical navigation semantics.
-- **[ghostty-config](https://aco-ghostty.readthedocs.io/en/latest/)**: High-performance GPU terminal with matching Catppuccin theme.
+- **[ghostty-config](https://aco-ghostty.readthedocs.io/en/latest/)**: High-performance GPU terminal with matching aco-theme colours.
 - **[kitty-config](https://aco-kitty.readthedocs.io/en/latest/)**: GPU terminal with Powerline tabs and transparency.
