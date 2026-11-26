@@ -117,19 +117,21 @@ status line mode colours, light or dark), which `vimrc` sources after the built-
 `habamax` stays. New Vim instances pick up theme changes; in a running one use
 `:source ~/.config/aco/theme/vim/colors.vim`.
 
---- | :--- | :--- |
-| **Base** | `#1e1e2e` | Main window background |
-| **Mantle** | `#181825` | Statusline and popup background |
-| **Text** | `#cdd6f4` | Primary foreground text |
-| **Overlay0** | `#6c7086` | Line numbers, comments, subtle borders |
-| **Surface0** | `#313244` | Split separators, menu borders |
-| **Surface1** | `#45475a` | Visual selection, matching parentheses |
-| **Blue** | `#89b4fa` | Functions, active line number, Normal mode |
-| **Green** | `#a6e3a1` | Strings, Insert mode indicator |
-| **Mauve** | `#cba6f7` | Keywords, statements, Visual mode indicator |
-| **Peach** | `#fab387` | Constants, numbers, Command mode indicator |
-| **Red** | `#f38ba8` | Errors, Replace mode indicator |
-| **Yellow** | `#f9e2af` | Search highlight, types, modified flag |
+| Role | aco-theme token |
+| :--- | :--- |
+| Window background | `bg` |
+| Status line and popup menu | `bg_alt`, `surface` |
+| Text | `text` |
+| Line numbers, comments, borders | `muted`, `border` |
+| Selection, matching parentheses | `surface_alt` |
+| Functions, active line number, Normal mode | `accent` |
+| Strings, Insert mode | `green` |
+| Keywords, Visual mode | `purple` |
+| Constants, numbers, Command mode | `orange` |
+| Errors, Replace mode | `red` |
+| Search, types, modified flag | `yellow` |
+
+The values follow the chosen profile (ACO, Graphit, Kühl, Warm) and light/dark.
 
 ---
 
